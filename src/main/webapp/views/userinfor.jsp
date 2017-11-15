@@ -137,7 +137,7 @@
                 <tr class="trs" id="trheader">
                     <td>2</td>
                     <td>HEADER</td>
-                    <td><img id="test-image-preview" style="height: 50px;width: 60px;" src="returnImg.jsp?username=<%=username%>" ></td>
+                    <td><img id="test-image-preview" style="height: 80px;width: 100px;" src="returnImg.jsp?username=<%=username%>" ></td>
                     <td>Yangtse Yeager</td>
                 </tr>
                 <tr class="table-info trs">
