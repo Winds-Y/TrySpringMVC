@@ -22,7 +22,7 @@
 %>
     <div class="alert alert-dismissible alert-info" id="logoutinfo">
         <button class="close" type="button" data-dismiss="alert">&times;</button>
-        <strong>Heads up!</strong> 注意 <a class="alert-link" href="#"><%=noexist%></a>,请重新登陆.
+        <strong>Heads up!</strong> 注意 <a class="alert-link" href="#"><%=noexist%></a>,请注册.
     </div>
 <%
     }else if(isSuccessful.equals("passwordwrong")){
