@@ -90,12 +90,6 @@
 //        ImageUtil.buff2image(bytes,outfile);
             //(username,password,tele,email,gender,header)
             fos.close();
-            /*ServletOutputStream outputStream = response.getOutputStream();
-            byte[] bytes1=new byte[4096];
-            while((size=db_headerstream.read(bytes1))!=-1){
-                outputStream.write(bytes1,0,size);
-            }
-            outputStream.close();*/
         }
     }catch (Exception e){
 
