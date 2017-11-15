@@ -1,0 +1,28 @@
+#mybody{
+	background: rgba(0,0,0,0);
+}
+#myborder{
+	border: 1px solid gray;
+	height: 400px;
+	width: 550px;
+}
+.li_1{
+	border: 1px solid gray;
+	height: 40px;
+	width: 550px;
+}
+.li_2{
+	border: 1px solid gray;
+	height: 140px;
+	width: 550px;
+}
+#mytable{
+	width: 800px;
+	margin-left: 300px;
+}
+.trs{
+	background: rgba(0,0,0,0);
+}
+#trheader{
+	height: 90px;
+}
