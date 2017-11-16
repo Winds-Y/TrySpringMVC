@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+	<title>用户信息管理系统</title>
+	<link rel="Shortcut Icon" href="../pic/pic.ico" />
+</head>
+<link rel="stylesheet" type="text/css" href="../css/yeti_bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="../css/background.css">
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+	  	<a class="navbar-brand" href="#">Yangtse</a>
+	  	<button class="navbar-toggler" aria-expanded="false" aria-controls="navbarColor01" aria-label="Toggle navigation" type="button" data-toggle="collapse" data-target="#navbarColor01">
+	    	<span class="navbar-toggler-icon"></span>
+	  	</button>
+		<div class="collapse navbar-collapse" id="navbarColor01">
+		    <ul class="navbar-nav mr-auto">
+			      <li class="nav-item active">
+			        	<a class="nav-link" target="myframe" href="register.html">用户注册<span class="sr-only">(current)</span></a>
+			      </li>
+			      <li class="nav-item">
+			        	<a class="nav-link" target="myframe" href="login.html">用户登陆</a>
+			      </li>
+			      <li class="nav-item">
+			        	<a class="nav-link" target="myframe" href="main.html">当前用户</a>
+			      </li>
+			      <li class="nav-item">
+			        	<a class="nav-link" target="myframe" href="logout.html">用户退出</a>
+			      </li>
+		    </ul>
+		    <form class="form-inline my-2 my-lg-0">
+		      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+		      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+		    </form>
+		</div>
+	</nav>
+
+	<div class="homepage-hero-module">
+
+	    <div class="video-container">
+    		<!-- <div class="cont">
+        		<input type="text" />
+        	</div>
+        	<div class="cont" style="display: none;">
+				音乐
+			</div>
+			<div class="cont" style="display: none;">
+				天坛
+			</div> -->
+	        <div class="filter">
+	        	<iframe src="register.html" id="myframe" name="myframe" scrolling="no" allowtransparency="true"></iframe>
+	        </div>
+	        <video autoplay loop class="fillWidth">
+	            <source src="../video/Cloud_Surf/Cloud_Surf.mp4" type="video/mp4" />
+	        </video>
+	    </div>
+	</div>
+	
+	<script type="text/javascript" src="../js/jquery-3.2.1.js"></script>
+	<script type="text/javascript" src="../js/script_register.js"></script>
+	<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../js/background.js"></script>
+</body>
+</html>

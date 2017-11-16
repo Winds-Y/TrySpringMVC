@@ -9,7 +9,7 @@
 <html>
 <head>
     <title>find servlet</title>
-</head
+</head>
     <%
         String outfile="d://header.jpg";
     %>
